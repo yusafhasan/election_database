@@ -1,0 +1,16 @@
+hdv_modeled.Jurisdiction
+Assign correct fipscode to statewide jurisdictions
+Convert 10-digit fipscode to 5-digit fipscode, which is the more widely-used format
+Fix duplicates/near-duplicates (punctuation of jname)
+Standardize naming convention for jname
+
+hdv_modeled.Candidate
+Reduce parties to Democratic, Republican, and Other
+Standardize naming convention for cname
+
+hdv_modeled.Results
+Apply all of the above simultaneously
+
+
+ers_modeled.Jurisdiction_Demography
+Simply need to reduce the number of columns, but the data is clean and standardized well

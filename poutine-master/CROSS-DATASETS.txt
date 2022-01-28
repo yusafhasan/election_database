@@ -1,0 +1,19 @@
+Each of our joins involve hdv_modeled.Results_Beam_DF and ers_modeled.Jurisdiction_Demography.
+These tables will be joined on the basis of FIPS codes. We will be selecting different columns for each join.
+Our 2nd dataset is quite clean, so we do not anticipate that data transforms will be necessary.
+
+1. The first query will use a join between the following two tables: 
+hdv_modeled.Results_Beam_DF and ers_modeled.Jurisdiction_Demograpy. The join
+will be across the FIPS and fipscode fields. We will compare the voting results
+in each jurisdiction with corresponding unemployment data for the given jurisdiction and year. 
+The SQL operations required include a select statement, a join statement, a where statement, and a limit statement. 
+
+2. The second query will compare voter turnout in each jurisdiction with electoral outcomes. 
+We will need to use the division operator to perform this query, to compare
+total_votes with population estimates for each jurisdiction in the correct year.
+Again, we will use select, join, where, and limit.
+
+3. Our final query will compare overall poverty estimates with voting results for
+each jurisdiction in the 2018 House Election. We will seek to calculate an average
+poverty level for party (i.e. Democrat, Republican) victories. This will require 
+the aggregate function AVG. Hence, we will use select, join, group by, and limit.

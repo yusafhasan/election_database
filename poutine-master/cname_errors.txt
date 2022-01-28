@@ -1,0 +1,226 @@
+1. Remove all " and ' from a name
+2. Make names lowercase except for 1st letter
+3. Remove all parenthetial substrings
+3. If [last name, first name]: splice at comma and switch order
+4. Remove all periods and commas from cname
+
+
+
+Beam corrections
+ARLETT ROBERT B to Robert B Arlett
+Antonio "Tony" Diaz to Antonio Diaz
+Antonio C. "Tony" Diaz to Antonio C. Diaz
+B. Mark Waller to Mark Waller
+Beilstein Mike to Mike Beilstein
+Belden 'Noonie Man' Batiste to Belden Batiste
+Benito Benny Bernal to Benito Bernal
+Bernard "Bernie" Sanders to Bernie Sanders
+Blumenauer Earl to Earl Blumenauer
+Bonamici Suzanne to Suzanne Bonamici
+C. A. Dutch Ruppersberger to C.A. Dutch Ruppersberger
+CASEY, ROBERT P JR to Robert P Casey Jr
+CHARLES "C.J." BARICEVIC to Charles Baricevic
+CLIFFORD, EDWARD T III to Edward T Clifford III
+Callahan Mark to Mark Callahan
+Canova, Timothy A. Tim to Canova, Timothy A.
+Charles ''Casper'' Stockham to Charles Stockham
+Charles Casper Stockham to Charles Stockham
+Crary Jim to Jim Crary
+DANIEL P. DANNY LUTZ JR. to Daniel P. Lutz Jr.
+Darryl W. Perry to Darryl Perry
+Dave A. Brat to David A. Brat
+Delk David to David Delk
+Du Wayne Gregory to DuWayne Gregory
+Dustin 'Dusty' Johnson to Dustin Johnson
+EARL L. BUDDY CARTER to Earl Buddy Carter
+EARL “BUDDY” CARTER to Earl Buddy Carter
+EVANS, H.D. "CHIP" to H.D. Evans
+EVELAND BARRY (write-in) to Barry Eveland
+Emanuel Cleaver, II to Emanuel Cleaver II
+F. James Sensenbrenner, Jr. to Jim Sensenbrenner
+FROST NADINE M to Nadine M Frost
+Frederick 'Ferd' Jones to Frederick Jones
+G. E. "Gerry" Connolly to Gerry Connolly
+GESTY SCOTT A to Scott A Gesty
+Gerald Edward Connolly to Gerry Connolly
+Grace F. Napolitano to Grace Flores Napolitano
+Guthrie Gil to Gil Guthrie
+Gwen S.  Moore to Gwen S. Moore
+HENRY C “HANK” JOHNSON JR to HENRY C HANK JOHNSON JR
+Harold "Hal" ROGERS to Harold Rogers
+Hollingsworth, III,  Joseph A to Joseph A Hollingsworth III
+In -Paul Krane to Paul Krane
+JOHNSTON PAUL A. (write-in) to Paul A. Johnston
+Jacob "Dorian Phibian" Hebert to Jacob Hebert
+James E Jim Clyburn to James Clyburn
+JohnBriscoe to John Briscoe
+Joseph "Joe" Kaufman to Joe Kaufman
+Joseph "Joe" Swider to Joe Swider
+Joseph P. Kennedy. III to Joseph P. Kennedy III
+Justin Donald Fareed to Justin Fareed
+KELLY, GEORGE J JR to George J Kelly Jr
+KELLY, JR., EDMOND to Edmond Kelly Jr
+KERNS, DALE R JR to Dale R Kerns Jr
+Kenneth "Ken" McGurn to Ken McGurn
+Kenneth Weston Wright to Kenneth W. Wright
+Kiumars Kiani (write-in) to Kiumars G. Kiani 
+Leonard D. (Lenny) Ladner to Leonard D. Ladner
+LucilleRoybal-Allard to Lucille Roybal-Allard
+Lynn S. Kahn to Lynn Kahn
+MARKOWITZ, WARREN ROSS to MARKOWITZ, WARREN 
+MV "Vinny" Mendoza to MV Mendoza
+Mary Jennings 'MJ' Hegar to Mary Jennings Hegar
+Melvin L. "Kip" Holden to Melvin L. Holden
+Michael ?Mike? Smith to Michael Smith
+Michael L. "Mike" Smith to Michael L. Smith
+Michael L. "Mike" Wade to Michael L. Wade
+Mildred 'Mimi' Methvin to Mildred Methvin
+PETER "PETE" DiCIANNI to PETER DiCIANNI
+Paul D. Tonko: Other to Democrat
+Peter J. 'Pete' Wells to Peter J. Wells
+RANDALL M. "RANDY" HULTGREN to RANDALL M. HULTGREN
+Ralph "Trey" Baucum to Ralph Baucum
+Robert C. 'Bobby' Scott to Robert C. Scott (both strings)
+Robert J. "Rob" Wittman to Robert J. Wittman (both strings)
+Robert W. "Bob" Goodlatte to Robert W. Goodlatte
+Rogers, Harold 'Hal' to Rogers, Harold
+SAWYER, THOMAS "TOM" to SAWYER, THOMAS
+STOUT MATTHEW WATER (write-in) to MATTHEW WATER STOUT
+William Robert "Bob" Lang to William Robert Lang
+WEBB ANDREW C (write-in) to Andrew C Webb
+ 
+
+
+Delete in Beam
+All Others
+BLANK VOTES
+Blank
+Blank Votes
+NONE OF THESE CANDIDATES
+Other
+Other Write-Ins
+Other write-ins
+Others
+Over Votes
+Pro-Life
+SCATTERING
+Under Votes
+WRITE-IN
+over votes
+under votes
+write-in
+Write In
+Write-In
+Write-Ins
+Write-ins
+Write-in
+Scatter
+No preference
+Void
+
+
+Errors found after initial transformation
+1. Introduce logic to remove all periods from names
+2. Replace 'Ii', 'Iii', and 'Iv'
+
+cname errors
+King, Angus S. Jr. to Angus King Jr
+Ayotte to Kelly Ayotte
+Barbara Jean Comstock to Barbara J. Comstock
+Pascrell, Bill Jr to Bill Pascrell Jr
+Brenda L. Lawrence to Brenda Lawrence
+Brooks to Mo Brooks
+Byrne to Bradley Byrne
+Giffin, Calvin C. to Calvin Griffin	
+CARPER THOMAS R to Thomas R Carper
+Chabot to Brian Chabot
+Collin C. Peterson to Collin Peterson
+Craig R. Bowden to Craig Bowden
+Crumpton to Ron Crumpton
+Cummings to Daniel Cummings
+Day to Aaron Day
+DeFazio Peter A to Peter A Defazio
+Payne, Donald M to Donald M Payne Jr.
+FARINA PETER TODD (write-in) to Peter Todd Farina
+Feegbeh to William Feegbeh
+Pallone, Frank Jr to Frank Pallone Jr
+GARY E JOHNSON to Gary Johnson
+George E. McDermott to George Mcdermott
+MCCAULEY, GREGORY MICHAEL SENIOR to Gregory Michael Mccauley Sr.
+Gretchen D. Driskell to Gretchen Driskell
+Gyurko to Zoltan Istvan Gyurko
+Hassan to Maggie Hassan
+Hedges to James Hedges
+Heinrich Brian J to Brian J Heinrich
+Gerald Jennings, II to Gerald Jennings II
+Thomas W. Reed, II to Thomas W. Reed II
+Denver L. Riggleman, III to Denver L. Riggleman III
+Isadore Hall, III to Isadore Hall III
+John W Sawyer, III to John W Sawyer III
+JOSEPH MANCHIN, III to Joseph Manchin III
+Joseph P. Kennedy, III to Joseph P. Kennedy III (also: a Democrat)
+William A. Devine, III to William A. Devine III
+Jackie Walorski to Jackie R Walorski
+Walorski, Jackie R to Jackie R Walorski
+James A Hedges to James Hedges
+Jeffrey C. Blunt to Jeffrey Blunt
+Joe C Schriner to Joe Schriner
+McCann, John J Jr. to John J Mccann Jr.
+Antonio Sabato, Jr. to Antonio Sabato Jr.
+Boyd, Jr. to Will Boyd
+Clifton B. Ingram, Jr. to Clifton B. Ingram Jr.
+Donald S. Beyer, Jr. to Donald S. Beyer Jr.
+Frank Accavitti, Jr. to Frank Accavitti Jr.
+H. Powell Dew, Jr. to H. Powell Dew Jr.
+John Conyers, Jr. to John Conyers Jr.
+John J. Duncan, Jr. to John J. Duncan Jr.
+Rey Gonzalez, Jr. to Rey Gonzalez
+Robert A. Evans, Jr. to Robert A. Evans Jr.
+Robert G. Flanders, Jr. to Robert G. Flanders Jr.
+Robert Kennedy, Jr. to Robert Kennedy Jr.
+Tom A. Garrett, Jr. to Tom A. Garrett Jr.
+William E. Bowhall, Jr. to William E. Bowhall Jr.
+Klojzy Jr. to JJ Klojzy Jr.
+LAWRENCE W. BERLINSKI JR. to Lawrence Berlinski
+MCALLISTER, LEONARD FRANCIS JR to Leonard Francis Mcallister Jr
+Lindsay Jim to Jim Lindsay
+Lucy M Brenton to Lucy Brenton
+Mark S. Reed to Mark Reed
+Mathis to Nathan Mathis
+Michael A Maturen to Michael Maturen
+Michael A. Maturen to Michael Maturen
+Michael Andrew Maturen to Michael Maturen
+Maturen to Michael Maturen
+Mike Maturen to Michael Andrew Maturen
+BOST, MIKE to Michael Bost
+Palmer to Gary Palmer
+Paula M Overby to Paula Overby
+Putman to David Putman
+HULTGREN, RANDALL M. RANDY to Randall M Hultgren
+Reynolds Steven C to Steven C Reynolds
+Robb E Cunningham to Robb Cunningham
+Roby to Martha Roby
+ROCHESTER LISA BLUNT to Lisa Blunt Rochester
+Rogers to Mike Rogers
+Sandnes Marvin to Marvin Sandnes
+PERRY, SCOTT G to Scott Perry
+Sean P. Duffy to Sean Duffy
+Senator John Boozman to John Boozman
+Sewell to Terri Sewell
+Shelby to Richard Shelby
+Shimkus to John Shimkus
+Skewes to Peter Alan Skewes
+Theodis Brown, Sr to Theodis Brown Sr
+STOUT MATTHEW WATER to Matthew Water Stout
+THEODOROPOULOS DEMITRI G to Demitri G Theodoropoulous
+McCarthur, Tom to Tom Macarthur
+Vogel-Walcutt to JJ Vogel-Walcutt
+Walden Greg to Greg Walden
+Walker David W to David W Walker
+WALKER SCOTT to Scott Walker
+WEBB ANDREW C to Andrew C Webb
+FAWELL, WILLIAM W. BILL to Bill Fawell
+Wyden Ron to Ron Wyden
+Burd, Zachard B. to Zachary B Burd
+
+

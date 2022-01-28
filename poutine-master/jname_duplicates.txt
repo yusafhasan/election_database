@@ -1,0 +1,93 @@
+Alabama, St. Clair (to St Clair) (done)
+
+AZ, La Paz (to LaPaz) (done)
+    SantaCruz (to Santa Cruz) (done)
+
+HI, City and County of Honolulu (done)
+    County of Hawaii 
+    County of Kauai 
+    County of Maui 
+
+IA, Pottawattamif (to Pottawattamie) (done)
+
+IL, Cook Suburbs (done)
+
+IN La Porte (done)
+
+LA De Soto (to DeSoto) (done)
+   Jeff Davis (to Jefferson Davis) (done)
+   
+MA E. Bridgewater (to East Bridgewater)
+   E. Brookfield (to East Brookfield)
+   E. Longmeadow (to East Longmeadow)
+   Manchester-by-the-Sea (to Manchester)
+   N. Adams (to North Adams)
+   N. Andover (to North Andover)
+   N. Attleborough (to North Attleborough)
+   N. Brookfield (to North Brookfield)
+   N. Reading (to North Reading)
+   S. Hadley (to South Hadley)
+   W. Boylston
+   W. Bridgewater
+   W. Brookfield
+   W. Newbury
+   W. Springfield
+   W. Stockbridge
+   W. Tisbury
+
+ME ABBOT
+   ALBANY TWP (to Albany)
+   Aroostook Cty Townships (to Aroostook)
+   Franklin Cty Townships (to Franklin City)
+   Hancock Cty Townships (to Hancock)
+   Indian Township Vtng Dst (Indian Township)
+   KINGMAN TWP (to Kingman)
+   Old Orchrd Bch (to Old Orchard Beach)
+   Oxford Cty Townships (to Oxford)
+   PLEASANT POINT VOTING DISTRICT, Pleasant Point Votng Dst
+   Penobscot Nation Vot Dst (to Penobscot)
+   ROCKWOOD STRIP TWP (to Rockwood)
+   SAINT ALBANS (to St. Albans)
+   SAINT FRANCIS
+   SAINT GEORGE
+   SAINT JOHN PLT
+   SANDY RIVER PLT
+   Somerset Cty Townships (to Somerset)
+   WASHINGTON TWP (to Washington)
+   WINTERVILLE PLT (to Winterville)
+
+MI GD TRAVERSE (to Grand Traverse)
+
+MO Laclede (to LaClede)
+
+MT Lewis and Clark (to Lewis & Clark)
+
+NH Claremont and its wards
+   Concord and its wards
+   Dover and its wards
+   Franklin and its wards
+   Harts Location to Hart's Location
+   Keene and its wards
+   Laconia and its wards
+   Lebanon and its wards
+   Manchester and its wards
+   Nashua and its wards
+   Portsmouth and its wards
+   Rochester and its wards
+   Somersworth and its wards
+   Waterville Valley to Waterville
+   
+NM De Baca (to DeBaca)
+
+NY Saint Lawrence (to St. Lawrence)
+
+SD Oglala Lakota (to Shannon)
+
+TX DEWITT to De Witt
+   La Salle to LaSalle
+   La Vaca to LaVaca
+
+VA Remove COUNTY or CITY from capitalized names
+   KING & QUEEN COUNTY (to King & Queen)
+   change SAINT to St. 
+

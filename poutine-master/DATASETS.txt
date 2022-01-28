@@ -1,0 +1,112 @@
+We want to investigate 2018 and 2016 general election data at 
+the federal level. We hope to examine several election factors, 
+including but not limited to, location, census characteristics 
+(i.e. age, income, education) from a secondary dataset. We have
+not located this secondary dataset yet, however.
+
+The primary data is organized under the following sub-categories: 
+state, jurisdiction, fipscode, office, year, party affiliation, candidate, and vote totals. 
+
+Our proposed dataset is composed of 5 files:
+
+1. 2016 House Results: Reports vote totals for each House race in the country,
+   in the format described above.
+2. 2016 Senate Results: Reports vote totals for each Senate race in the country,
+   in the format described above.
+3. 2016 Presidential Results: Reports vote totals for the Presidential election,
+   in the format described above.
+4. 2018 House Results: Reports vote totals for each House race in the country,
+   encompassing the format described above.
+5. 2018 Senate Results: Reports vote totals for each Senate race in the country,
+   encompassing the format described above.
+   
+The overarching relationship between much of the dataset is many-to-many (m:n).
+Jurisdiction:Office, Jursidiction:Candidate, State:Office, State:Candidate (presidential only)
+
+There are also some one-to-many relationships (1:m).
+State:District, Party:Candidate
+
+The primary key for the 2016 data is the combination of state, jurisdiction, office,
+and candidate. For the 2018 data, the primary key is fipscode, office, and candidate.
+
+We can develop Jurisdiction, State, Party, Candidate, and Electoral Race tables, from this data.
+
+For example: Jursidiction will have a primary key of fipscode and a foreign key of state; Candidate will have a primary key of candidate name and foreign key of party. Electoral Race will have a primary key of jurisdiction, office, and year, with foreign keys of state, jurisdiction, candidate.
+This is only a demonstration, not exhaustive proof, that our datasets are capable of these primary key-foreign key relationships.
+
+Sample Data
+
+2016 House Results
+state,jurisdiction,fipscode,office,year,party,candidate,votes,total.votes
+AK,District 1,290100000,US House,2016,Democrat,"Lindbeck, Steve",2405,6345
+AK,District 1,290100000,US House,2016,Libertarian,"McDermott, Jim C.",738,6345
+AK,District 1,290100000,US House,2016,Independent,"Souphanavong, Bernie",188,6345
+AK,District 1,290100000,US House,2016,Independent,Write-in,25,6345
+AK,District 1,290100000,US House,2016,Republican,"Young, Don",2989,6345
+
+2016 Senate Results
+state,jurisdiction,fipscode,office,year,party,candidate,votes,total.votes
+AK,District 1,290100000,Senate,2016,NA,"Craig, Breck A.",47,6413
+AK,District 1,290100000,Senate,2016,NA,"Gianoutsos, Ted",36,6413
+AK,District 1,290100000,Senate,2016,Democrat,"Metcalfe, Ray",802,6413
+AK,District 1,290100000,Senate,2016,Libertarian,"Miller, Joe",1830,6413
+AK,District 1,290100000,Senate,2016,Republican,"Murkowski, Lisa",2950,6413
+
+2016 President Results
+state,jurisdiction,fipscode,office,year,party,candidate,votes,total.votes
+AK,District 1,290100000,President,2016,Constitution,Darrell Castle,73,6638
+AK,District 1,290100000,President,2016,Democrat,Hillary Clinton,2573,6638
+AK,District 1,290100000,President,2016,NA,Rocky Roque de la Fuente,28,6638
+AK,District 1,290100000,President,2016,Libertarian,Gary Johnson,416,6638
+AK,District 1,290100000,President,2016,Green,Jill Stein,143,6638
+
+2018 House Results
+state,jurisdiction,fipscode,office,year,party,candidate,votes,total.votes
+AK,District 1,290100000,US House,2018,Democrat,"Galvin, Alyse S.",2930,5595
+AK,District 1,290100000,US House,2018,No party,Write-in,29,5595
+AK,District 1,290100000,US House,2018,Republican,"Young, Don",2636,5595
+AK,District 10,291000000,US House,2018,Democrat,"Galvin, Alyse S.",4004,6457
+AK,District 10,291000000,US House,2018,No party,Write-in,22,6457
+
+2018 Senate Results
+state,jurisdiction,fipscode,office,year,party,candidate,votes,total.votes
+AZ,Apache,400100000,US Senate,2018,Green,Angela Green,961,25087
+AZ,Apache,400100000,US Senate,2018,Libertarian,Barry Hess (write-in),2,25087
+AZ,Apache,400100000,US Senate,2018,Anti-Terror Party,Edward Davida (write-in),0,25087
+AZ,Apache,400100000,US Senate,2018,Independent,Jeff Pearce (write-in),5,25087
+AZ,Apache,400100000,US Senate,2018,The Old Republic Party,Jonathan Ringham (write-in),1,25087
+
+2016 download link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MLLQDH
+2018 download link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UYSHST
+
+Since our focus is on federal elections, we did not choose to include the gubernatorial elections in our
+proposed dataset, although the files are available there. Our dataset is composed of the "long" files, not
+the "wide" type.
+
+
+
+
+
+
+Secondary Dataset
+Our secondary dataset is from the USDA Economic Research Service. It describes educational 
+and economic statistics on a county basis over several years. While some data is from 1970-2018 or 2007-2018,
+we will truncate the data to 2016 and 2018.
+
+1. Educational Attainment: Presents information for each county based on year and educational attainment level 
+(some high school or less, high school graduate, some college, college graduate, more than a 4 year degree). 
+Information can be raw numbers or percentage of county population.
+
+2. Unemployment and Median Household Income: Provides economic information for each county based on year. 
+Gives the size of the civilian labor force, the number of employed adults, the number of unemployed adults, 
+and the unemployment rate. However, the median household income is available only for 2018. This median
+household income is also compared to the state median household income as a percentage.
+
+3. Poverty estimates: This table gives different statistics on how to measure poverty in a county; however, 
+these statistics only apply to 2018. They include 90% confidence intervals for the general population in poverty, 
+as well as for different age groups (0-4, 5-17, 0-17). Both raw counts and percentages are available.
+
+4. Population estimates: This table provides county-level population data by year. There are predicted 
+population amounts in the years when a census was not conducted, as well as rates of population growth. 
+The growth is further broken down into births, deaths, and migration. Raw numbers and percentages 
+are available to measure rates of population growth.
